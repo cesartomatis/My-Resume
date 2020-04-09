@@ -1,0 +1,27 @@
+{
+	"--PERSONAL_DATA--": "",
+	"TITLE": "Software Engineer",
+
+	"--MENU--": "",
+	"ABOUTME": "About me",
+	"EDUCATION": "Education",
+	"EXPERIENCE": "Experience",
+	"SKILLS": "Skills",
+	"DOWNLOAD": "Download CV",
+
+	"--ABOUT-ME--": "",
+	"PRESENTATION": "Hi! I'm César Tomatis",
+	"FROM_QUESTION": "Where are you from?",
+	"FROM_ANSWER": "I'm from Rosario, Argentina but I'm currently living in Barcelona, Spain.",
+	"DESCRIBE_QUESTION": "How would you describe yourself?",
+	"DESCRIBE_ANSWER": "I'm a proactive person, always looking for new challenges and eager to learn new technologies. I love teamwork!",
+	"MORE_ANSWER": "I’m a software engineer with 5+ years of experience. Since the beginning of my professional career I’ve worked with mobile technologies such as Ionic and Xamarin and web technologies such as React and Angular. As time went by I started learning by my myself other technologies such as NodeJS with Express and MongoDB to be able to create complete applications by myself.",
+
+	"--EDUCATION--": "",
+	"STUDIES": "Education",
+	"SYSTEMS_ANALYST": "Systems Analyst",
+	"LANGUAGES": "Languages",
+	"SPANISH": "Spanish",
+	"ENGLISH": "English",
+	"ITALIAN": "Italian"
+}

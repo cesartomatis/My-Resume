@@ -1,0 +1,27 @@
+@import '../../../../styles/variables.scss';
+
+.Container {
+	margin-top: 1rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	padding: 5px 10px;
+	box-shadow: 8px 0px 0px 0px $background, -8px 0px 0px 0px $background,
+		0px 0px 6px 0px $black;
+
+	.Icon {
+		margin-right: 0.5rem;
+		font-size: 2rem;
+		color: $success;
+		&:hover {
+			cursor: pointer;
+			filter: drop-shadow(0px 0px 4px $success);
+		}
+	}
+	.Text {
+		color: $primary;
+	}
+}

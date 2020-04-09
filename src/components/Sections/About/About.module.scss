@@ -1,0 +1,44 @@
+@import '../../../styles/variables.scss';
+@import '../../../styles/breakpoints.scss';
+
+.About {
+	padding: 2rem;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	box-sizing: border-box;
+	@include mobile {
+		padding: 0;
+	}
+	.Boubble {
+		width: auto;
+		max-width: 70%;
+		box-sizing: border-box;
+		padding: 0.5rem 1rem;
+		border-top-left-radius: 2rem;
+		border-top-right-radius: 2rem;
+		&:not(:last-child) {
+			margin-bottom: 0.5rem;
+		}
+		@include mobile {
+			max-width: 90%;
+		}
+		.Text {
+			color: $background;
+			font-size: 1rem;
+		}
+	}
+	.Sent {
+		align-self: flex-end;
+		border-bottom-right-radius: 0.3rem;
+		border-bottom-left-radius: 2rem;
+		background-color: $secondary;
+	}
+	.Received {
+		align-self: flex-start;
+		border-bottom-right-radius: 2rem;
+		border-bottom-left-radius: 0.3rem;
+		background-color: $primary;
+	}
+}

@@ -1,0 +1,30 @@
+$black: #000000;
+$white: #ffffff;
+$grey: #ccc;
+$darkgrey: rgb(112, 112, 112);
+$blue: #003b78;
+$transparent: transparent;
+
+$primary: #282c34;
+$secondary: #3d5a80;
+$empty: #b2c3db;
+$background: #f4f4f4;
+$danger: #d33f49;
+$success: #1e8c2b;
+
+$githubHEX: #181717;
+$linkedinHEX: #0077b5;
+$stackoverflowHEX: #fe7a16;
+$twitterHEX: #1da1f2;
+$instagramHEX: #e4405f;
+
+$github: invert(7%) sepia(6%) saturate(246%) hue-rotate(316deg) brightness(102%)
+	contrast(96%);
+$linkedin: invert(27%) sepia(61%) saturate(2493%) hue-rotate(179deg)
+	brightness(97%) contrast(101%);
+$stackoverflow: invert(51%) sepia(94%) saturate(1705%) hue-rotate(350deg)
+	brightness(101%) contrast(99%);
+$twitter: invert(62%) sepia(39%) saturate(6254%) hue-rotate(176deg)
+	brightness(98%) contrast(93%);
+$instagram: invert(35%) sepia(84%) saturate(1000%) hue-rotate(313deg)
+	brightness(90%) contrast(99%);

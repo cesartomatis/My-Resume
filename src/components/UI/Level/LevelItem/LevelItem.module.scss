@@ -1,0 +1,15 @@
+@import '../../../../styles/variables.scss';
+
+.Circle {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+}
+
+.Fill {
+	background-color: $secondary;
+}
+
+.Empty {
+	background-color: $empty;
+}

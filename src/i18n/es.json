@@ -1,0 +1,27 @@
+{
+	"--PERSONAL_DATA--": "",
+	"TITLE": "Ingeniero de Software",
+
+	"--MENU--": "",
+	"ABOUTME": "Sobre mi",
+	"EDUCATION": "Educación",
+	"EXPERIENCE": "Experiencia",
+	"SKILLS": "Aptitudes",
+	"DOWNLOAD": "Descargar CV",
+
+	"--ABOUT-ME--": "",
+	"PRESENTATION": "Hola! Soy César Tomatis",
+	"FROM_QUESTION": "¿De dónde eres?",
+	"FROM_ANSWER": "Soy de Rosario, Argentina pero actualmente estoy viviendo en Barcelona, España.",
+	"DESCRIBE_QUESTION": "¿Cómo te describirías?",
+	"DESCRIBE_ANSWER": "Soy una persona proactiva, siempre buscando nuevos desafíos y con un entusiasmo muy grande por aprender nuevas tecnologías. Me encanta el trabajo en equipo!",
+	"MORE_ANSWER": "Soy un ingeniero de software con 5+ años de experiencia. Desde el comienzo de mi carrera profesional, he trabajado con tecnologías móviles como Ionic y Xamarin y tecnologías web como React y Angular. Con el paso del tiempo, comencé a aprender por mí mismo otras tecnologías como NodeJS con Express y MongoDB para poder crear aplicaciones completas por mí mismo.",
+
+	"--EDUCATION--": "",
+	"STUDIES": "Estudios realizados",
+	"SYSTEMS_ANALYST": "Analista Universitario de Sistemas",
+	"LANGUAGES": "Idiomas",
+	"SPANISH": "Español",
+	"ENGLISH": "Inglés",
+	"ITALIAN": "Italiano"
+}

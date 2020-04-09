@@ -1,0 +1,44 @@
+@import '../../../../../styles/variables.scss';
+@import '../../../../../styles/breakpoints.scss';
+
+.Container {
+	width: 1.4rem;
+	height: 1.4rem;
+	.Icon {
+		filter: invert(37%) sepia(11%) saturate(244%) hue-rotate(179deg)
+			brightness(91%) contrast(89%);
+		&:hover {
+			cursor: pointer;
+		}
+	}
+	.Github {
+		filter: $github;
+		&:hover {
+			filter: $github drop-shadow(0px 0px 4px $githubHEX);
+		}
+	}
+	.LinkedIn {
+		filter: $linkedin;
+		&:hover {
+			filter: $linkedin drop-shadow(0px 0px 4px $linkedinHEX);
+		}
+	}
+	.Stackoverflow {
+		filter: $stackoverflow;
+		&:hover {
+			filter: $stackoverflow drop-shadow(0px 0px 4px $stackoverflowHEX);
+		}
+	}
+	.Twitter {
+		filter: $twitter;
+		&:hover {
+			filter: $twitter drop-shadow(0px 0px 4px $twitterHEX);
+		}
+	}
+	.Instagram {
+		filter: $instagram;
+		&:hover {
+			filter: $instagram drop-shadow(0px 0px 4px $instagramHEX);
+		}
+	}
+}

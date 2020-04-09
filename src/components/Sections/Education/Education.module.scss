@@ -1,0 +1,13 @@
+@import '../../../styles/breakpoints.scss';
+
+.Education {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	@include mobile {
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+}

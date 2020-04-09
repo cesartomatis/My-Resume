@@ -1,0 +1,18 @@
+@import '../../../styles/variables.scss';
+
+.Title {
+	font-size: 1.5rem;
+	color: $primary;
+	margin: 0;
+	position: relative;
+	border-bottom: 2px solid $grey;
+	&:before {
+		position: absolute;
+		background: $secondary;
+		height: 2px;
+		content: '';
+		width: 30px;
+		bottom: -2px;
+		left: 0;
+	}
+}

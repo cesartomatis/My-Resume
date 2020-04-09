@@ -1,0 +1,11 @@
+@import '../../../styles/breakpoints.scss';
+
+.Options {
+	display: flex;
+	flex-flow: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	@include desktop {
+		margin-top: 1rem;
+	}
+}
