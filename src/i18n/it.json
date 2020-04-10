@@ -10,12 +10,15 @@
 	"DOWNLOAD": "Scarica CV",
 
 	"--ABOUT-ME--": "",
+	"MYSELF": "Io stesso",
+	"ONLINE": "online",
 	"PRESENTATION": "Ciao! Sono César Tomatis",
 	"FROM_QUESTION": "Di dove sei?",
 	"FROM_ANSWER": "Vengo da Rosario, Argentina, ma attualmente vivo a Barcellona, Spagna.",
 	"DESCRIBE_QUESTION": "Come ti descriveresti?",
 	"DESCRIBE_ANSWER": "Sono una persona proattiva, sempre alla ricerca di nuove sfide e desiderosa di apprendere nuove tecnologie. Adoro il lavoro di squadra!",
 	"MORE_ANSWER": "Sono un ingegnere informatico con 5+ anni di esperienza. Fin dall'inizio della mia carriera professionale ho lavorato con tecnologie mobili come Ionic e Xamarin e tecnologie web come React e Angular. Con il passare del tempo ho iniziato a studiare da solo altre tecnologie come NodeJS con Express e MongoDB per essere in grado di creare applicazioni complete da solo.",
+	"ADVENTURE": "Sono pronto per una nuova avventura",
 
 	"--EDUCATION--": "",
 	"STUDIES": "Studi effettuati",
@@ -23,5 +26,6 @@
 	"LANGUAGES": "Lingue",
 	"SPANISH": "Spagnolo",
 	"ENGLISH": "Inglese",
-	"ITALIAN": "Italiano"
+	"ITALIAN": "Italiano",
+	"TRAININGS": "Corsi / Certificati"
 }

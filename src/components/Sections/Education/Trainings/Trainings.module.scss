@@ -1,0 +1,16 @@
+.Trainings {
+	margin-top: 0.5rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	.Container {
+		box-sizing: border-box;
+		width: 100%;
+		display: flex;
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+}

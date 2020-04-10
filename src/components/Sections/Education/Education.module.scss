@@ -2,12 +2,20 @@
 
 .Education {
 	display: flex;
-	flex-flow: row;
-	justify-content: space-between;
+	flex-flow: column;
+	justify-content: flex-start;
 	align-items: flex-start;
-	@include mobile {
-		flex-flow: column;
-		justify-content: flex-start;
-		align-items: center;
+	padding: 1rem;
+	.Container {
+		width: 100%;
+		display: flex;
+		flex-flow: row;
+		justify-content: space-between;
+		align-items: flex-start;
+		@include mobile {
+			flex-flow: column;
+			justify-content: flex-start;
+			align-items: center;
+		}
 	}
 }

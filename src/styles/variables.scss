@@ -1,3 +1,4 @@
+// common colors
 $black: #000000;
 $white: #ffffff;
 $grey: #ccc;
@@ -5,6 +6,7 @@ $darkgrey: rgb(112, 112, 112);
 $blue: #003b78;
 $transparent: transparent;
 
+// app colors
 $primary: #282c34;
 $secondary: #3d5a80;
 $empty: #b2c3db;
@@ -12,6 +14,18 @@ $background: #f4f4f4;
 $danger: #d33f49;
 $success: #1e8c2b;
 
+$primaryFilter: invert(13%) sepia(17%) saturate(590%) hue-rotate(182deg)
+	brightness(101%) contrast(89%);
+$backgroundFilter: invert(79%) sepia(90%) saturate(33%) hue-rotate(19deg)
+	brightness(128%) contrast(91%);
+
+// trainings
+$udemyHEX: #ec5252;
+
+$udemy: invert(49%) sepia(94%) saturate(3711%) hue-rotate(333deg)
+	brightness(98%) contrast(88%);
+
+// social networks variables
 $githubHEX: #181717;
 $linkedinHEX: #0077b5;
 $stackoverflowHEX: #fe7a16;
@@ -28,3 +42,66 @@ $twitter: invert(62%) sepia(39%) saturate(6254%) hue-rotate(176deg)
 	brightness(98%) contrast(93%);
 $instagram: invert(35%) sepia(84%) saturate(1000%) hue-rotate(313deg)
 	brightness(90%) contrast(99%);
+
+// skills variables
+$reactHEX: #61dafb;
+$angularHEX: #dd0031;
+$ionicHEX: #3880ff;
+$nodejsHEX: #339933;
+$dotnetHEX: #5c2d91;
+$javascriptHEX: #f7df1e;
+$typescriptHEX: #007acc;
+$mongodbHEX: #47a248;
+$reduxHEX: #764abc;
+$html5HEX: #e34f26;
+$css3HEX: #1572b6;
+$sassHEX: #cc6699;
+$gitHEX: #f05032;
+$xamarinHEX: #3498db;
+$unityHEX: #000000;
+$mysqlHEX: #4479a1;
+$herokuHEX: #430098;
+$scrumHEX: #ff970e;
+$agileHEX: #3bbff0;
+$vrHEX: #e09641;
+
+$react: invert(84%) sepia(41%) saturate(3385%) hue-rotate(166deg)
+	brightness(106%) contrast(97%);
+$angular: invert(13%) sepia(82%) saturate(6518%) hue-rotate(341deg)
+	brightness(84%) contrast(107%);
+$ionic: invert(50%) sepia(50%) saturate(5133%) hue-rotate(203deg)
+	brightness(100%) contrast(103%);
+$nodejs: invert(41%) sepia(100%) saturate(386%) hue-rotate(72deg)
+	brightness(95%) contrast(84%);
+$dotnet: invert(16%) sepia(50%) saturate(3977%) hue-rotate(259deg)
+	brightness(88%) contrast(87%);
+$javascript: invert(92%) sepia(40%) saturate(1623%) hue-rotate(339deg)
+	brightness(101%) contrast(94%);
+$typescript: invert(27%) sepia(85%) saturate(2847%) hue-rotate(187deg)
+	brightness(94%) contrast(101%);
+$mongodb: invert(51%) sepia(16%) saturate(1617%) hue-rotate(71deg)
+	brightness(101%) contrast(89%);
+$redux: invert(34%) sepia(10%) saturate(5066%) hue-rotate(228deg)
+	brightness(99%) contrast(93%);
+$html5: invert(52%) sepia(52%) saturate(6580%) hue-rotate(347deg)
+	brightness(92%) contrast(92%);
+$css3: invert(34%) sepia(57%) saturate(1431%) hue-rotate(177deg) brightness(91%)
+	contrast(90%);
+$sass: invert(70%) sepia(59%) saturate(2449%) hue-rotate(291deg) brightness(84%)
+	contrast(88%);
+$git: invert(38%) sepia(56%) saturate(1169%) hue-rotate(330deg) brightness(102%)
+	contrast(94%);
+$xamarin: invert(52%) sepia(76%) saturate(773%) hue-rotate(177deg)
+	brightness(88%) contrast(95%);
+$unity: invert(0%) sepia(4%) saturate(0%) hue-rotate(292deg) brightness(101%)
+	contrast(106%);
+$mysql: invert(40%) sepia(62%) saturate(366%) hue-rotate(162deg) brightness(97%)
+	contrast(94%);
+$heroku: invert(11%) sepia(90%) saturate(5180%) hue-rotate(268deg)
+	brightness(69%) contrast(119%);
+$scrum: invert(57%) sepia(62%) saturate(995%) hue-rotate(352deg)
+	brightness(104%) contrast(100%);
+$agile: invert(62%) sepia(63%) saturate(633%) hue-rotate(163deg) brightness(99%)
+	contrast(90%);
+$vr: invert(52%) sepia(98%) saturate(319%) hue-rotate(352deg) brightness(103%)
+	contrast(85%);

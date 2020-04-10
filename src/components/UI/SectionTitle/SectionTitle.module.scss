@@ -1,4 +1,5 @@
 @import '../../../styles/variables.scss';
+@import '../../../styles/breakpoints.scss';
 
 .Title {
 	font-size: 1.5rem;
@@ -6,6 +7,9 @@
 	margin: 0;
 	position: relative;
 	border-bottom: 2px solid $grey;
+	@include mobile {
+		font-size: 1.3rem;
+	}
 	&:before {
 		position: absolute;
 		background: $secondary;
