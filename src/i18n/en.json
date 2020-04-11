@@ -27,5 +27,22 @@
 	"SPANISH": "Spanish",
 	"ENGLISH": "English",
 	"ITALIAN": "Italian",
-	"TRAININGS": "Trainings / Certificates"
+	"TRAININGS": "Trainings / Certificates",
+
+	"--EXPERIENCE--": "",
+	"FRONTEND": "Front End Developer",
+	"MERN": "MERN Stack Developer",
+	"MEAN": "MEAN Stack Developer",
+	"LEAD_MOBILE": "Lead Mobile Developer",
+	"ANDROID": "Android Developer",
+	"BARCELONA": "Barcelona, Spain",
+	"ROSARIO": "Rosario, Argentina",
+	"PUBLIC_REPO": "Code available on my personal github.",
+	"MY_RESUME": "I developed my personal resume as a web application using ReactJS.",
+	"RICETTARIO": "I’m currently developing a web app that allows users to create and share food recipes with other users. I’m using React with Hooks and Redux in the front end and NodeJS with Express and MongoDB in the back end.",
+	"ATSISTEMAS": "I'm currently working as a front end developer using Angular. I've also been involved in the development of several mobile apps as a hybrid mobile developer using Ionic.",
+	"CENTRUM": "I developed a web application for a cosmetic clinic to manage appointments using Angular.",
+	"FINAL_PROJECT": "I developed a web booking management engine using Angular in the front end and NodeJS with Express and MongoDB in the back end.",
+	"OZ": "I’ve worked mainly with mobile technologies as a developer and ended up leading two different projects for the same client. In all the projects I worked with people that were at the same office than me and remote teams from the US.",
+	"CEDITE": "CeDITE stands for \"Centro de Desarrollo e Investigación de Tecnologías Especiales\" (Center for Development and Research of Special Technologies). I worked developing native Android apps using Java and Android Studio. This apps helped people with Down Syndrome to improve their communication skills."
 }

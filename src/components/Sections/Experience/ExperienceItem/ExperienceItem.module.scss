@@ -1,0 +1,61 @@
+@import '../../../../styles/variables.scss';
+@import '../../../../styles/breakpoints.scss';
+
+.ExperienceItem {
+	padding: 0.5rem;
+	width: 100%;
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	.JobTitle {
+		font-size: 1.1rem;
+		font-weight: bold;
+		color: $primary;
+	}
+	.Info {
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		flex-flow: row;
+		justify-content: flex-start;
+		align-items: center;
+		@include mobile {
+			flex-flow: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		.Company {
+			display: flex;
+			flex-flow: row;
+			justify-content: flex-start;
+			align-items: center;
+		}
+		.Icon {
+			min-width: 1rem;
+			min-height: 1rem;
+			max-width: 1rem;
+			max-height: 1rem;
+			margin-right: 0.3rem;
+		}
+		.CompanyInfo {
+			font-size: 0.9rem;
+			color: $secondary;
+		}
+		.LocationInfo {
+			font-size: 0.9rem;
+			color: $secondary;
+			flex: 1;
+		}
+		.Date {
+			font-size: 0.8rem;
+			color: $darkgrey;
+		}
+	}
+	.JobDescription {
+		margin-top: 0.5rem;
+		font-size: 1rem;
+		color: $primary;
+	}
+}

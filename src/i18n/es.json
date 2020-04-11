@@ -27,5 +27,22 @@
 	"SPANISH": "Español",
 	"ENGLISH": "Inglés",
 	"ITALIAN": "Italiano",
-	"TRAININGS": "Cursos / Certificados"
+	"TRAININGS": "Cursos / Certificados",
+
+	"--EXPERIENCE--": "",
+	"FRONTEND": "Desarrollador Front End",
+	"MERN": "Desarrollador MERN Stack",
+	"MEAN": "Desarrollador MEAN Stack",
+	"LEAD_MOBILE": "TL / Desarrollador Mobile",
+	"ANDROID": "Desarrollador Android",
+	"BARCELONA": "Barcelona, España",
+	"ROSARIO": "Rosario, Argentina",
+	"PUBLIC_REPO": "Código disponible en mi github personal.",
+	"MY_RESUME": "Desarrollé mi CV como una aplicación web utilizando ReactJS.",
+	"RICETTARIO": "Actualmente estoy desarrollando una aplicación web que permite a los usuarios crear y compartir recetas de comida con otros usuarios. Estoy usando React con Hooks y Redux en el front-end y NodeJS con Express y MongoDB en el back-end.",
+	"ATSISTEMAS": "Actualmente estoy trabajando como desarrollador front-end usando Angular. También participé en el desarrollo de varias aplicaciones móviles como desarrollador móvil híbrido con Ionic.",
+	"CENTRUM": "Desarrollé una aplicación web usando Angular para una clínica de estética para administrar los turnos.",
+	"FINAL_PROJECT": "Desarrollé un motor de gestión de reservas web usando Angular en el front-end y NodeJS con Express y MongoDB en el back-end.",
+	"OZ": "Trabajé principalmente con tecnologías móviles como desarrollador y terminé liderando dos proyectos diferentes para el mismo cliente. En todos los proyectos trabajé con personas que estaban en la misma oficina que yo y con equipos remotos de los EE.UU.",
+	"CEDITE": "CeDITE significa \"Centro de Desarrollo e Investigación de Tecnologías Especiales\". Trabajé desarrollando aplicaciones nativas de Android usando Java y Android Studio. Estas aplicaciones ayudaron a las personas con síndrome de Down a mejorar sus habilidades de comunicación."
 }
