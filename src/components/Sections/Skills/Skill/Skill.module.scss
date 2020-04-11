@@ -1,0 +1,166 @@
+@import '../../../../styles/variables.scss';
+
+.Skill {
+	margin: 0.5rem;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+	.Img {
+		min-width: 1.4rem;
+		min-height: 1.4rem;
+		max-width: 1.4rem;
+		max-height: 1.4rem;
+	}
+	.Text {
+		font-size: 1rem;
+		color: $primary;
+		margin-left: 0.3rem;
+	}
+}
+
+.ReactSkill {
+	border: 2px solid $reactHEX;
+	.React {
+		filter: $react;
+	}
+}
+
+.AngularSkill {
+	border: 2px solid $angularHEX;
+	.Angular {
+		filter: $angular;
+	}
+}
+
+.JavascriptSkill {
+	border: 2px solid $javascriptHEX;
+	.Javascript {
+		filter: $javascript;
+	}
+}
+
+.TypescriptSkill {
+	border: 2px solid $typescriptHEX;
+	.Typescript {
+		filter: $typescript;
+	}
+}
+
+.IonicSkill {
+	border: 2px solid $ionicHEX;
+	.Ionic {
+		filter: $ionic;
+	}
+}
+
+.ReduxSkill {
+	border: 2px solid $reduxHEX;
+	.Redux {
+		filter: $redux;
+	}
+}
+
+.HTML5Skill {
+	border: 2px solid $html5HEX;
+	.HTML5 {
+		filter: $html5;
+	}
+}
+
+.CSS3Skill {
+	border: 2px solid $css3HEX;
+	.CSS3 {
+		filter: $css3;
+	}
+}
+
+.SASSSkill {
+	border: 2px solid $sassHEX;
+	.SASS {
+		filter: $sass;
+	}
+}
+
+.GitSkill {
+	border: 2px solid $gitHEX;
+	.Git {
+		filter: $git;
+	}
+}
+
+.NodejsSkill {
+	border: 2px solid $nodejsHEX;
+	.Nodejs {
+		filter: $nodejs;
+	}
+}
+
+.MongodbSkill {
+	border: 2px solid $mongodbHEX;
+	.Mongodb {
+		filter: $mongodb;
+	}
+}
+
+.ExpressjsSkill {
+	border: 2px solid $expressjsHEX;
+	.Expressjs {
+		filter: $expressjs;
+	}
+}
+
+.CSharpSkill {
+	border: 2px solid $dotnetHEX;
+}
+
+.UnitySkill {
+	border: 2px solid $unityHEX;
+	.Unity {
+		filter: $unity;
+	}
+}
+
+.XamarinSkill {
+	border: 2px solid $xamarinHEX;
+	.Xamarin {
+		filter: $xamarin;
+	}
+}
+
+.VRSkill {
+	border: 2px solid $vrHEX;
+	.VR {
+		filter: $vr;
+	}
+}
+
+.MySQLSkill {
+	border: 2px solid $mysqlHEX;
+	.MySQL {
+		filter: $mysql;
+	}
+}
+
+.HerokuSkill {
+	border: 2px solid $herokuHEX;
+	.Heroku {
+		filter: $heroku;
+	}
+}
+
+.ScrumSkill {
+	border: 2px solid $scrumHEX;
+	.Scrum {
+		filter: $scrum;
+	}
+}
+
+.AgileSkill {
+	border: 2px solid $agileHEX;
+	.Agile {
+		filter: $agile;
+	}
+}

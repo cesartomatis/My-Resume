@@ -15,8 +15,8 @@ const About = (props) => {
 				<span className={iconClasses.join(' ')}>arrow_back</span>
 				<img className={classes.Img} src={ProfileIcon} alt="" />
 				<div className={classes.DataContainer}>
-					<lavel className={classes.Person}>{translate('MYSELF')}</lavel>
-					<lavel className={classes.Online}>{translate('ONLINE')}</lavel>
+					<label className={classes.Person}>{translate('MYSELF')}</label>
+					<label className={classes.Online}>{translate('ONLINE')}</label>
 				</div>
 				<span className={[...iconClasses, classes.TopIcon].join(' ')}>
 					videocam
