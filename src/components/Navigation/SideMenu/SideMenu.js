@@ -21,7 +21,7 @@ const SideMenu = (props) => {
 	return (
 		<Fragment>
 			<Backdrop show={props.open} clicked={props.closed} />
-			<div className={menuClasses.join(' ')} onClick={props.closed}>
+			<div className={menuClasses.join(' ')}>
 				<div className={classes.DataContainer}>
 					<div className={classes.ImgContainer}>
 						<img className={classes.Img} src={ProfilePhoto} alt="" />

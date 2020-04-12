@@ -1,8 +1,8 @@
 @import '../../../styles/variables.scss';
 
 .Select {
-	border: 2px solid $secondary;
-	border-radius: 1rem;
+	// border: 2px solid $secondary;
+	// border-radius: 1rem;
 	margin: 1rem 0;
 	padding: 0.5rem 1rem;
 	width: 100%;
@@ -11,8 +11,10 @@
 	flex-flow: row;
 	justify-content: flex-start;
 	align-items: center;
-	max-height: 3rem;
-	min-height: 3rem;
+	max-height: 2.5rem;
+	min-height: 2.5rem;
+	box-shadow: 8px 0px 0px 0px $background, -8px 0px 0px 0px $background,
+		0px 0px 6px 0px $black;
 	&:hover {
 		cursor: pointer;
 	}
