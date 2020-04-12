@@ -8,14 +8,21 @@ if (userLang.includes('-')) {
 }
 
 let translate;
-try {
-	translate = require(`./${langJSON}.json`);
-} catch {
-	translate = require('./en.json');
-}
+const setTranslate = (lang) => {
+	try {
+		translate = require(`./${lang}.json`);
+	} catch {
+		translate = require('./en.json');
+	}
+};
 
-// This function will lazy load the language json file to be used by the context
-const getTranslate = (langCode) => (key) => translate[key] || key;
+// This function will lazy load the language json file to be used by the context !translate || langCode !== langJSON
+const getTranslate = (langCode, shouldSetTranslate) => {
+	if (shouldSetTranslate) {
+		setTranslate(langCode);
+	}
+	return (key) => translate[key] || key;
+};
 
 /* We will have two things in our context state, 
 langCode will be the current language of the page
@@ -23,7 +30,7 @@ and translate will be the method to translate keys
 into meaningful texts. Default language will be English */
 const initialState = {
 	langCode: langJSON,
-	translate: getTranslate(langJSON)
+	translate: getTranslate(langJSON, true),
 };
 
 export const I18nContext = React.createContext(initialState);
@@ -38,7 +45,10 @@ export const I18nContextProvider = ({ children }) => {
 			case 'setLanguage':
 				return {
 					langCode: action.payload,
-					translate: getTranslate(action.payload)
+					translate: getTranslate(
+						action.payload,
+						state.langCode !== action.payload
+					),
 				};
 			default:
 				return { ...initialState };

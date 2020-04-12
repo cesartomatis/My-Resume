@@ -1,0 +1,31 @@
+@import '../../../../styles/variables.scss';
+
+.Option {
+	display: flex;
+	flex-flow: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0.5rem 1rem;
+	margin: 0.5rem 0;
+	&:hover {
+		cursor: pointer;
+	}
+	.Text {
+		font-size: 1rem;
+		color: $primary;
+		flex: 1;
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
+
+.Selected {
+	background-color: $empty;
+	.Text {
+		font-weight: bold;
+	}
+	.Icon {
+		color: $success;
+	}
+}

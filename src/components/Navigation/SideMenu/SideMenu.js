@@ -7,6 +7,7 @@ import ProfilePhoto from '../../../assets/images/photo.jpeg';
 import SocialNetworkItems from './SocialNetworkItems/SocialNetworkItems';
 import { I18nContext } from '../../../i18n/index';
 import DownloadResumeItem from './DownloadResumeItem/DownloadResumeItem';
+import ChangeLanguage from './ChangeLanguage/ChangeLanguage';
 
 const SideMenu = (props) => {
 	const { translate } = useContext(I18nContext);
@@ -38,6 +39,7 @@ const SideMenu = (props) => {
 				</div>
 				<SocialNetworkItems />
 				<DownloadResumeItem />
+				<ChangeLanguage />
 			</div>
 		</Fragment>
 	);
