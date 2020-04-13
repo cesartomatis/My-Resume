@@ -11,10 +11,12 @@ const Option = (props) => {
 		optionClasses.push(classes.Selected);
 	}
 
+	const onClickHandler = () => {
+		props.clicked(props.id);
+	};
+
 	return (
-		<div
-			className={optionClasses.join(' ')}
-			onClick={() => props.clicked(props.id)}>
+		<div className={optionClasses.join(' ')} onClick={onClickHandler}>
 			<label className={classes.Text}>{translate(props.value)}</label>
 			{props.isSelected ? (
 				<span className={['material-icons', classes.Icon].join(' ')}>done</span>

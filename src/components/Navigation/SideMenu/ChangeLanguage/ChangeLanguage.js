@@ -33,13 +33,3 @@ const ChangeLanguage = (props) => {
 };
 
 export default ChangeLanguage;
-
-/* <button onClick={() => dispatch({ type: 'setLanguage', payload: 'en' })}>
-				ENG
-			</button>
-			<button onClick={() => dispatch({ type: 'setLanguage', payload: 'es' })}>
-				ESP
-			</button>
-			<button onClick={() => dispatch({ type: 'setLanguage', payload: 'it' })}>
-				IT
-			</button> */

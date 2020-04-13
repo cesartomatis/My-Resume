@@ -40,10 +40,12 @@ const Select = (props) => {
 		);
 	});
 
+	const onClickHandler = () => {
+		setIsOpen((state) => !state);
+	};
+
 	return (
-		<div
-			className={classes.Select}
-			onClick={() => setIsOpen((state) => !state)}>
+		<div className={classes.Select} onClick={onClickHandler}>
 			<label className={classes.OptionSelected}>
 				{translate('LANGUAGE')}: {translate(selectedOption)}
 			</label>

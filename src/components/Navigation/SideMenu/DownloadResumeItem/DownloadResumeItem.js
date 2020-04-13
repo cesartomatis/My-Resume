@@ -7,8 +7,12 @@ import CV from '../../../../assets/cv/CV - Cesar Tomatis.pdf';
 const DownloadResumeItem = (props) => {
 	const { translate } = useContext(I18nContext);
 
+	const onClickHandler = () => {
+		window.open(CV);
+	};
+
 	return (
-		<div className={classes.Container} onClick={() => window.open(CV)}>
+		<div className={classes.Container} onClick={onClickHandler}>
 			<span className={['material-icons', classes.Icon].join(' ')}>
 				cloud_download
 			</span>

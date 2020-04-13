@@ -45,55 +45,63 @@ const NavigationItems = (props) => {
 		}
 	}, [activatedItem]);
 
+	const aboutmeHandler = () => {
+		setAboutIsActive(true);
+		setEducationIsActive(false);
+		setExperienceIsActive(false);
+		setSkillsIsActive(false);
+		props.navItemClicked('aboutme');
+	};
+
+	const educationHandler = () => {
+		setAboutIsActive(false);
+		setEducationIsActive(true);
+		setExperienceIsActive(false);
+		setSkillsIsActive(false);
+		props.navItemClicked('education');
+	};
+
+	const experienceHandler = () => {
+		setAboutIsActive(false);
+		setEducationIsActive(false);
+		setExperienceIsActive(true);
+		setSkillsIsActive(false);
+		props.navItemClicked('experience');
+	};
+
+	const skillsHandler = () => {
+		setAboutIsActive(false);
+		setEducationIsActive(false);
+		setExperienceIsActive(false);
+		setSkillsIsActive(true);
+		props.navItemClicked('skills');
+	};
+
 	return (
 		<div className={classes.Options}>
 			<NavigationItem
 				icon="assignment_ind"
 				text={translate('ABOUTME')}
 				isActive={aboutIsActive}
-				clicked={() => {
-					setAboutIsActive(true);
-					setEducationIsActive(false);
-					setExperienceIsActive(false);
-					setSkillsIsActive(false);
-					props.navItemClicked('aboutme');
-				}}
+				clicked={aboutmeHandler}
 			/>
 			<NavigationItem
 				icon="school"
 				text={translate('EDUCATION')}
 				isActive={educationIsActive}
-				clicked={() => {
-					setAboutIsActive(false);
-					setEducationIsActive(true);
-					setExperienceIsActive(false);
-					setSkillsIsActive(false);
-					props.navItemClicked('education');
-				}}
+				clicked={educationHandler}
 			/>
 			<NavigationItem
 				icon="emoji_objects"
 				text={translate('EXPERIENCE')}
 				isActive={experienceIsActive}
-				clicked={() => {
-					setAboutIsActive(false);
-					setEducationIsActive(false);
-					setExperienceIsActive(true);
-					setSkillsIsActive(false);
-					props.navItemClicked('experience');
-				}}
+				clicked={experienceHandler}
 			/>
 			<NavigationItem
 				icon="settings"
 				text={translate('SKILLS')}
 				isActive={skillsIsActive}
-				clicked={() => {
-					setAboutIsActive(false);
-					setEducationIsActive(false);
-					setExperienceIsActive(false);
-					setSkillsIsActive(true);
-					props.navItemClicked('skills');
-				}}
+				clicked={skillsHandler}
 			/>
 		</div>
 	);
