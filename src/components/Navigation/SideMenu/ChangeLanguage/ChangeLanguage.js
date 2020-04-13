@@ -9,17 +9,17 @@ const ChangeLanguage = (props) => {
 	const options = [
 		{
 			key: 'en',
-			value: 'ENGLISH',
+			value: 'English',
 			selected: langCode === 'en',
 		},
 		{
 			key: 'es',
-			value: 'SPANISH',
+			value: 'Español',
 			selected: langCode === 'es',
 		},
 		{
 			key: 'it',
-			value: 'ITALIAN',
+			value: 'Italiano',
 			selected: langCode === 'it',
 		},
 	];
