@@ -59,6 +59,9 @@ const About = (props) => {
 					<span className={iconClasses.join(' ')}>attach_file</span>
 					<span className={iconClasses.join(' ')}>keyboard_voice</span>
 				</div>
+				<div className={classes.SendButton}>
+					<span className={iconClasses.join(' ')}>send</span>
+				</div>
 			</div>
 		</CardView>
 	);

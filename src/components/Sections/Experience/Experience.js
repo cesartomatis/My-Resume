@@ -23,7 +23,7 @@ const Experience = (props) => {
 						jobTitle={translate('FRONTEND')}
 						location={translate('BARCELONA')}
 						fromDate="03/2020"
-						toDate="04/2020"
+						toDate="present"
 						jobDescription={translate('MY_RESUME')}
 						publicRepo={translate('PUBLIC_REPO')}
 					/>

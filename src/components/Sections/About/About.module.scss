@@ -145,6 +145,21 @@
 			animation: onoff 0.7s infinite;
 		}
 	}
+	.SendButton {
+		margin-left: 0.5rem;
+		min-width: 2rem;
+		min-height: 2rem;
+		border-radius: 50%;
+		background-color: $secondary;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		.Icon {
+			font-size: 1.1rem;
+			color: $background;
+		}
+	}
 }
 
 @keyframes onoff {
