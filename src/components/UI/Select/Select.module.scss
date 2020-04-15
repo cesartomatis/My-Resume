@@ -1,4 +1,5 @@
 @import '../../../styles/variables.scss';
+@import '../../../styles/breakpoints.scss';
 
 .Select {
 	// border: 2px solid $secondary;
@@ -18,10 +19,20 @@
 	&:hover {
 		cursor: pointer;
 	}
+	.OptionIcon {
+		font-size: 1rem;
+		color: $primary;
+	}
 	.OptionSelected {
+		margin-left: 0.2rem;
+		font-size: 1rem;
 		min-width: 80%;
+		color: $primary;
 		&:hover {
 			cursor: pointer;
+		}
+		@include mobile {
+			font-size: 0.9rem;
 		}
 	}
 	.Icon {

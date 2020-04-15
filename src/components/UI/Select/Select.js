@@ -46,6 +46,9 @@ const Select = (props) => {
 
 	return (
 		<div className={classes.Select} onClick={onClickHandler}>
+			<span className={['material-icons', classes.OptionIcon].join(' ')}>
+				translate
+			</span>
 			<label className={classes.OptionSelected}>
 				{translate('LANGUAGE')}: {translate(selectedOption)}
 			</label>

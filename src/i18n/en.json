@@ -41,7 +41,7 @@
 	"BARCELONA": "Barcelona, Spain",
 	"ROSARIO": "Rosario, Argentina",
 	"PUBLIC_REPO": "Code available on my personal github.",
-	"MY_RESUME": "I developed my personal resume as a web application using ReactJS.",
+	"MY_RESUME": "I’m currently developing my personal resume as a web application using ReactJS and Hooks.",
 	"RICETTARIO": "I’m currently developing a web app that allows users to create and share food recipes with other users. I’m using React with Hooks and Redux in the front end and NodeJS with Express and MongoDB in the back end.",
 	"ATSISTEMAS": "I'm currently working as a front end developer using Angular. I've also been involved in the development of several mobile apps as a hybrid mobile developer using Ionic.",
 	"CENTRUM": "I developed a web application for a cosmetic clinic to manage appointments using Angular.",

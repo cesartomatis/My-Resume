@@ -18,6 +18,9 @@
 	.MenuText {
 		color: $primary;
 		font-size: 1.5rem;
+		@include mobile {
+			font-size: 1.3rem;
+		}
 	}
 	.MenuText {
 		display: block;

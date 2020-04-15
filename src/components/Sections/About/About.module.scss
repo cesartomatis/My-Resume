@@ -132,6 +132,9 @@
 				opacity: 0;
 				animation: onoff 0.7s infinite;
 			}
+			@include mobile {
+				font-size: 0.9rem;
+			}
 		}
 		.Cursor {
 			margin: 0;
