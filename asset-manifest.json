@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.98d04e66.chunk.css",
+    "main.css": "/static/css/main.9c94dce0.chunk.css",
     "main.js": "/static/js/main.bfcc1b9c.chunk.js",
     "main.js.map": "/static/js/main.bfcc1b9c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.81a331bb.js",
@@ -8,9 +8,9 @@
     "static/js/2.0aa8f164.chunk.js": "/static/js/2.0aa8f164.chunk.js",
     "static/js/2.0aa8f164.chunk.js.map": "/static/js/2.0aa8f164.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.517540face6508caa2b7e28f99baf16e.js": "/precache-manifest.517540face6508caa2b7e28f99baf16e.js",
+    "precache-manifest.83236a27cceba7c6319c8c8a96eb3dcf.js": "/precache-manifest.83236a27cceba7c6319c8c8a96eb3dcf.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.98d04e66.chunk.css.map": "/static/css/main.98d04e66.chunk.css.map",
+    "static/css/main.9c94dce0.chunk.css.map": "/static/css/main.9c94dce0.chunk.css.map",
     "static/js/2.0aa8f164.chunk.js.LICENSE.txt": "/static/js/2.0aa8f164.chunk.js.LICENSE.txt",
     "static/media/CV - Cesar Tomatis.pdf": "/static/media/CV - Cesar Tomatis.d2beae54.pdf",
     "static/media/agile.png": "/static/media/agile.e5da81de.png",
@@ -51,7 +51,7 @@
   "entrypoints": [
     "static/js/runtime-main.81a331bb.js",
     "static/js/2.0aa8f164.chunk.js",
-    "static/css/main.98d04e66.chunk.css",
+    "static/css/main.9c94dce0.chunk.css",
     "static/js/main.bfcc1b9c.chunk.js"
   ]
 }
