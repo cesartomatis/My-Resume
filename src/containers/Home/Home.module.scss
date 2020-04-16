@@ -10,6 +10,9 @@
 	align-items: center;
 	margin-top: 2rem;
 	padding: 0px 1.5rem;
+	@include mobile {
+		padding: 0;
+	}
 	.Container {
 		width: 100%;
 		margin-bottom: 2rem;
