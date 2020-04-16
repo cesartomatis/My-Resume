@@ -16,12 +16,13 @@
 	min-height: 2.5rem;
 	box-shadow: 8px 0px 0px 0px $background, -8px 0px 0px 0px $background,
 		0px 0px 6px 0px $black;
+	z-index: 200;
 	&:hover {
 		cursor: pointer;
 	}
 	.OptionIcon {
 		font-size: 1rem;
-		color: $primary;
+		color: $blue;
 	}
 	.OptionSelected {
 		margin-left: 0.2rem;
@@ -35,38 +36,40 @@
 			font-size: 0.9rem;
 		}
 	}
-	.Icon {
-		min-width: 20%;
-		text-align: center;
-	}
-	.Options {
-		border-radius: 0.5rem;
-		box-shadow: 0px 0px 5px 0px $black;
-		background-color: $background;
-		position: absolute;
-		bottom: 85px;
-		right: 9%;
-		min-width: 80%;
-		&:before {
-			content: '';
-			position: absolute;
-			width: 0;
-			height: 0;
-			border-left: 0.8rem solid transparent;
-			border-right: 0.8rem solid transparent;
-			border-top: 0.8rem solid $background;
-			bottom: -0.7rem;
-			right: 1rem;
-			filter: drop-shadow(0px 0px 2px $black);
+	.OptionsMenu {
+		position: relative;
+		.Icon {
+			text-align: center;
 		}
-		&:after {
-			content: '';
-			position: absolute;
-			width: 2rem;
-			height: 0.5rem;
+		.Options {
+			border-radius: 0.5rem;
+			box-shadow: 0px 0px 5px 0px $black;
 			background-color: $background;
-			bottom: 0;
-			right: 0.8rem;
+			position: absolute;
+			bottom: 33px;
+			right: -16.5px;
+			width: 10rem;
+			&:before {
+				content: '';
+				position: absolute;
+				width: 0;
+				height: 0;
+				border-left: 0.8rem solid transparent;
+				border-right: 0.8rem solid transparent;
+				border-top: 0.8rem solid $background;
+				bottom: -0.7rem;
+				right: 1rem;
+				filter: drop-shadow(0px 0px 2px $black);
+			}
+			&:after {
+				content: '';
+				position: absolute;
+				width: 2rem;
+				height: 0.5rem;
+				background-color: $background;
+				bottom: 0;
+				right: 0.8rem;
+			}
 		}
 	}
 }

@@ -1,4 +1,4 @@
-import React, { Fragment, useContext } from 'react';
+import React, { Fragment, useContext, useState } from 'react';
 
 import classes from './SideMenu.module.scss';
 import Backdrop from '../../UI/Backdrop/Backdrop';
@@ -11,6 +11,7 @@ import ChangeLanguage from './ChangeLanguage/ChangeLanguage';
 
 const SideMenu = (props) => {
 	const { translate } = useContext(I18nContext);
+	const [closeMenu, setCloseMenu] = useState(false);
 
 	const menuClasses = [classes.SideMenu];
 	if (props.open) {
@@ -18,9 +19,19 @@ const SideMenu = (props) => {
 	} else {
 		menuClasses.push(classes.Close);
 	}
+
+	const backdropClickedHandler = () => {
+		setCloseMenu(true);
+		props.closed();
+	};
+
+	const setCantClosehandler = () => {
+		setCloseMenu(false);
+	};
+
 	return (
 		<Fragment>
-			<Backdrop show={props.open} clicked={props.closed} />
+			<Backdrop show={props.open} clicked={backdropClickedHandler} />
 			<div className={menuClasses.join(' ')}>
 				<div className={classes.DataContainer}>
 					<div className={classes.ImgContainer}>
@@ -39,7 +50,7 @@ const SideMenu = (props) => {
 				</div>
 				<SocialNetworkItems />
 				<DownloadResumeItem />
-				<ChangeLanguage />
+				<ChangeLanguage close={closeMenu} setCantClose={setCantClosehandler} />
 			</div>
 		</Fragment>
 	);

@@ -1,8 +1,9 @@
-import React, { useState, useContext } from 'react';
+import React, { useState, useContext, Fragment } from 'react';
 
 import classes from './Select.module.scss';
 import Option from './Option/Option';
 import { I18nContext } from '../../../i18n';
+import Backdrop from '../Backdrop/Backdrop';
 
 const Select = (props) => {
 	const { translate } = useContext(I18nContext);
@@ -10,6 +11,10 @@ const Select = (props) => {
 	const [options, setOptions] = useState(props.options);
 	const [isOpen, setIsOpen] = useState(false);
 	const [selectedOption, setSelectedOption] = useState('');
+
+	if (props.close && isOpen) {
+		setIsOpen(false);
+	}
 
 	const optionSelectedHandler = (key) => {
 		const optionsAux = [...options];
@@ -41,22 +46,28 @@ const Select = (props) => {
 	});
 
 	const onClickHandler = () => {
+		props.setCantClose();
 		setIsOpen((state) => !state);
 	};
 
 	return (
-		<div className={classes.Select} onClick={onClickHandler}>
-			<span className={['material-icons', classes.OptionIcon].join(' ')}>
-				translate
-			</span>
-			<label className={classes.OptionSelected}>
-				{translate('LANGUAGE')}: {translate(selectedOption)}
-			</label>
-			<span className={['material-icons', classes.Icon].join(' ')}>
-				{isOpen ? 'expand_less' : 'expand_more'}
-			</span>
-			{isOpen ? <div className={classes.Options}>{optionItems}</div> : null}
-		</div>
+		<Fragment>
+			<Backdrop show={isOpen} clicked={onClickHandler} transparent />
+			<div className={classes.Select} onClick={onClickHandler}>
+				<span className={['material-icons', classes.OptionIcon].join(' ')}>
+					translate
+				</span>
+				<label className={classes.OptionSelected}>
+					{translate('LANGUAGE')}: {translate(selectedOption)}
+				</label>
+				<div className={classes.OptionsMenu}>
+					<span className={['material-icons', classes.Icon].join(' ')}>
+						{isOpen ? 'expand_less' : 'expand_more'}
+					</span>
+					{isOpen ? <div className={classes.Options}>{optionItems}</div> : null}
+				</div>
+			</div>
+		</Fragment>
 	);
 };
 

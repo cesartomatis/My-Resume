@@ -26,6 +26,8 @@ const ChangeLanguage = (props) => {
 
 	return (
 		<Select
+			setCantClose={props.setCantClose}
+			close={props.close}
 			options={options}
 			optionSelected={(key) => dispatch({ type: 'setLanguage', payload: key })}
 		/>
