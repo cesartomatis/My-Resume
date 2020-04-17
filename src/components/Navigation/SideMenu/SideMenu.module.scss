@@ -17,6 +17,7 @@
 	height: 80%;
 	border-radius: 1rem;
 	z-index: 200;
+	overflow: auto;
 	.DataContainer {
 		display: flex;
 		flex-flow: row;
@@ -62,6 +63,7 @@
 	@include mobile {
 		position: fixed;
 		width: 280px;
+		max-height: 40rem;
 		height: 90%;
 		max-width: 70%;
 		left: 0;
