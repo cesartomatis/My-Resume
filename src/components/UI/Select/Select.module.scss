@@ -53,7 +53,7 @@
 			right: -16.5px;
 			width: 10rem;
 			height: 0;
-			transition: all 0.5s ease-in-out;
+			transition: all 0.4s ease-in-out;
 			overflow: hidden;
 		}
 		.OpenOptions {
@@ -78,7 +78,7 @@
 			position: absolute;
 			width: 10rem;
 			height: 0;
-			transition: height 0.1s ease-in-out;
+			transition: height 0.01s ease-in-out;
 			background-color: $background;
 			bottom: 33px;
 			z-index: 2;
