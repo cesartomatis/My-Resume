@@ -60,11 +60,23 @@ const Select = (props) => {
 				<label className={classes.OptionSelected}>
 					{translate('LANGUAGE')}: {translate(selectedOption)}
 				</label>
-				<div className={classes.OptionsMenu}>
+				<div
+					className={
+						isOpen
+							? [classes.OptionsMenu, classes.OptionsMenuVisible].join(' ')
+							: classes.OptionsMenu
+					}>
 					<span className={['material-icons', classes.Icon].join(' ')}>
 						{isOpen ? 'expand_less' : 'expand_more'}
 					</span>
-					{isOpen ? <div className={classes.Options}>{optionItems}</div> : null}
+					<div
+						className={
+							isOpen
+								? [classes.Options, classes.OpenOptions].join(' ')
+								: classes.Options
+						}>
+						{optionItems}
+					</div>
 				</div>
 			</div>
 		</Fragment>
