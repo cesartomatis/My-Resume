@@ -68,7 +68,7 @@
 			border-left: 0.8rem solid transparent;
 			border-right: 0.8rem solid transparent;
 			border-top: 0.8rem solid $background;
-			bottom: 20px;
+			bottom: 21px;
 			right: -1px;
 			z-index: 1;
 			filter: drop-shadow(0px 0px 2px $black);
@@ -76,13 +76,13 @@
 		&:after {
 			content: '';
 			position: absolute;
-			width: 10rem;
+			width: 9.9rem;
 			height: 0;
 			transition: height 0.01s ease-in-out;
 			background-color: $background;
 			bottom: 33px;
 			z-index: 2;
-			right: -17px;
+			right: -1rem;
 			border-bottom-left-radius: 5rem;
 			border-bottom-right-radius: 5rem;
 		}
